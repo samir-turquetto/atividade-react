@@ -1,0 +1,36 @@
+form {
+  max-width: 600px;
+  height: auto;
+  padding: 60px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #718096;
+  border-radius: 8;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.inputGroup {
+  flex-direction: row;
+}
+
+button {
+  width: 120px;
+  height: 52px;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: #718096;
+  border: 2px solid #718096;
+
+  font-size: 18px;
+  color: #e2e8f0;
+}
+
+.result {
+  margin-top: 40px;
+}
